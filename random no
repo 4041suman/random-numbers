@@ -1,0 +1,17 @@
+import java.util.Random;
+
+public class Randomdemo {
+    public static void main(String[] args) {
+        Random ram = new Random();
+        //integer
+        int a = ram.nextInt(19);
+        System.out.println(a);
+
+        //double ..decimal value
+        double b = ram.nextDouble();
+        System.out.println(b);
+
+        //Approach 3.Math class
+        System.out.println(Math.random());
+    }
+}
